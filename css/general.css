@@ -1,0 +1,9 @@
+body, .is-flex-centered {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+body {
+    background: red;
+}

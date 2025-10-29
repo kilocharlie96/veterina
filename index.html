@@ -1,11 +1,24 @@
 <!DOCTYPE html>
-<html červenýn">
+<html>
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>🐶 Veterina ⛑</title>
+    <meta property="og:title" content="Veterinárna ambulancia Komjatice">
+    <meta property="og:description" content="Informácie o našej ambulancii">
+    <title>🐶 Veterina 🩺</title>
+
+    <script src="https://cdn.jsdelivr.net/npm/htmx.org@2.0.8/dist/htmx.js" 
+    integrity="sha384-ezjq8118wdwdRMj+nX4bevEi+cDLTbhLAeFF688VK8tPDGeLUe0WoY2MZtSla72F" 
+    crossorigin="anonymous">
+    </script>
+
+    <link rel="stylesheet" href="css/general.css">
+    <link rel="stylesheet" href="css/app.css">
 </head>
-<body>
-    
+
+<body class="is-flex-centered">
+    <div class="app">
+        <header hx-get="components/header.html" hx-trigger="load"></header>
+    </div>
 </body>
 </html>
