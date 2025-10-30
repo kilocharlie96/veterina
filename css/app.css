@@ -1,5 +1,5 @@
 .app {
     min-height: 200rem;
     max-width: 768px;
-    background: oklch(98.039% 0.01985 97.565);
+    background: var(--lch-vanilla);
 }

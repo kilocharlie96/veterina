@@ -12,7 +12,7 @@ button.menu-icon {
     top: 0;
     padding: 1rem;
 
-    background: var(--lch-bg-green);
+    background: var(--lch-green);
 }
 
 .logo {

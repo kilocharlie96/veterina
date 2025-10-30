@@ -5,7 +5,10 @@ body{
 }
 
 body {
-    background: #FFBDBD;
+background-image: linear-gradient(
+    var(--lch-purple-lighter), 
+    var(--lch-purple)
+    );
 }
 
 button {

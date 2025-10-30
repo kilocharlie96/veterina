@@ -4,5 +4,8 @@
 #FFBDBD */
 
 :root {
-    --lch-bg-green: oklch(87.6% 0.04 188.6);
+    --lch-vanilla: oklch(98.039% 0.01985 97.565);
+    --lch-green: oklch(87.596% 0.03919 188.588);
+    --lch-purple: oklch(80.915% 0.1083 19.651);
+    --lch-purple-lighter: oklch(85.866% 0.07643 18.691);
 }
