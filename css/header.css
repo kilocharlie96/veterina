@@ -10,7 +10,9 @@ button.menu-icon {
 
     position: sticky;
     top: 0;
-    background: #BADFDB;
+    padding: 1rem;
+
+    background: var(--lch-bg-green);
 }
 
 .logo {
