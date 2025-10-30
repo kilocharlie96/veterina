@@ -12,6 +12,10 @@
     crossorigin="anonymous">
     </script>
 
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
     <link rel="stylesheet" href="css/modern-normalize.css">
     <link rel="stylesheet" href="css/variables.css">
     <link rel="stylesheet" href="css/general.css">
@@ -21,6 +25,7 @@
 
 <body>
     <div class="app">
+        <div class="navbar" hx-get="components/navbar.html" hx-trigger="load"></div>
         <header hx-get="components/header.html" hx-trigger="load"></header>
         <main hx-get="components/main.html" hx-trigger="load"></main>
         <footer hx-get="components/footer.html" hx-trigger="load"></footer>
