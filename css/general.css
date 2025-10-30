@@ -1,4 +1,4 @@
-body, .is-flex-centered {
+body{
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -6,4 +6,20 @@ body, .is-flex-centered {
 
 body {
     background: red;
+}
+
+button {
+    border: none;
+}
+
+button:hover, button:active {
+    cursor: pointer;
+}
+
+a {
+    text-decoration: none;
+}
+
+img {
+    max-width: 100%;
 }

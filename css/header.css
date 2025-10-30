@@ -1,0 +1,18 @@
+button.menu-icon {
+    background: inherit;
+}
+
+.navbar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+    position: sticky;
+    top: 0;
+    background: #BADFDB;
+}
+
+.logo {
+    width: 40%;
+}
