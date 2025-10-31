@@ -33,3 +33,7 @@ img {
 .container {
     padding: 1rem;
 }
+
+.scrolled {
+    width: 20%;
+}
