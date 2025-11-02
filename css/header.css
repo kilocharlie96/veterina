@@ -15,9 +15,10 @@
     background: var(--lch-green);
 }
 
-/* .menu {
-    position: fixed;
-} */
+.menu {
+    /* position: fixed; */
+    background: wheat;
+}
 
 .logo {
     width: 40%;
