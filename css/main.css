@@ -1,3 +1,7 @@
+section:has(.gallery) {
+  padding: 1rem 1.5rem;
+}
+
 .gallery {
     display: grid;
     grid-template-columns: 1fr 1fr;
