@@ -8,10 +8,10 @@ body{
 }
 
 body {
-background-image: linear-gradient(
-    var(--lch-purple-lighter), 
-    var(--lch-purple)
-    );
+    background-image: linear-gradient(
+        var(--lch-purple-lighter), 
+        var(--lch-purple)
+        );
 }
 
 button {
@@ -30,10 +30,6 @@ img {
     max-width: 100%;
 }
 
-.container {
+.feature {
     padding: 1rem;
-}
-
-.scrolled {
-    width: 20%;
 }

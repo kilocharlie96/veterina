@@ -1,4 +1,4 @@
-button.menu-icon {
+.btn-menu {
     background: inherit;
 }
 
@@ -14,6 +14,10 @@ button.menu-icon {
 
     background: var(--lch-green);
 }
+
+/* .menu {
+    position: fixed;
+} */
 
 .logo {
     width: 40%;
