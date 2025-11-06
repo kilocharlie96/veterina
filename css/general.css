@@ -3,15 +3,12 @@ body{
     flex-direction: row;
     justify-content: center;
 
+    background-image: linear-gradient(
+    var(--lch-purple-lighter), 
+    var(--lch-purple)
+    );
     font-family: "Montserrat", sans-serif;
     font-optical-sizing: auto;
-}
-
-body {
-    background-image: linear-gradient(
-        var(--lch-purple-lighter), 
-        var(--lch-purple)
-        );
 }
 
 button {
