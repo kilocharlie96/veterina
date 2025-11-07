@@ -11,6 +11,10 @@ body{
     font-optical-sizing: auto;
 }
 
+[id] {
+  scroll-margin-top: 4rem;
+}
+
 button {
     border: none;
     background: inherit;
