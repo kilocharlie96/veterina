@@ -15,10 +15,19 @@
     background: var(--lch-green);
 }
 
-#menu {
-    /* position: fixed; */
-    background: wheat;
+#menu-container {
     display: none;
+    position: fixed;
+    height: 100vh;
+    width: 100vw;
+    background: var(--lch-transparent-grey);
+}
+
+#menu {
+    height: 100%;
+    width: 80%;
+    background: wheat;
+    padding: 2rem;
 }
 
 .logo {

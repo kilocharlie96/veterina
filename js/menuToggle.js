@@ -1,7 +1,7 @@
 function openMenu(){
-    document.getElementById("menu").style.display = "block";
+    document.getElementById("menu-container").style.display = "block";
 }
 
 function closeMenu() {
-    document.getElementById("menu").style.display = "none";
+    document.getElementById("menu-container").style.display = "none";
 }
