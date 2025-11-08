@@ -3,10 +3,7 @@ body{
     flex-direction: row;
     justify-content: center;
 
-    background-image: linear-gradient(
-    var(--lch-purple-lighter), 
-    var(--lch-purple)
-    );
+    background: var(--lch-creme);
     font-family: "Montserrat", sans-serif;
     font-optical-sizing: auto;
 }
@@ -26,6 +23,10 @@ button:hover, button:active {
 
 a {
     text-decoration: none;
+}
+
+h1 {
+    color: var(--lch-brand-red);
 }
 
 img {

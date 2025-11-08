@@ -4,9 +4,11 @@
 #FFBDBD */
 
 :root {
+    --lch-creme: oklab(91.583% 0 -0.0001);
     --lch-vanilla: oklch(98.039% 0.01985 97.565);
     --lch-green: oklch(87.596% 0.03919 188.588);
     --lch-purple: oklch(80.915% 0.1083 19.651);
     --lch-purple-lighter: oklch(85.866% 0.07643 18.691);
     --lch-transparent-grey: oklch(59.987% 0.00007 271.152 / 0.747);
+    --lch-brand-red: oklch(31.247% 0.09936 24.99);
 }
