@@ -1,18 +1,15 @@
-.btn-menu {
-    background: inherit;
-}
-
 .navbar {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-
+    
     position: sticky;
     top: 0;
     padding: 1rem;
-
-    background: var(--lch-transparent-grey);
+    
+    background: var(--lch-brand-red);
+    color: white;
 }
 
 #menu-container {
@@ -28,6 +25,7 @@
     width: 80%;
     background: wheat;
     padding: 2rem;
+    color: white;
 }
 
 .logo {
@@ -35,9 +33,9 @@
 }
 
 #about {
-    background-image: url('../assets/images/5.jpg'); /* cesta k obrázku */
-    background-size: cover; /* obrázok vyplní celý element */
-    background-position: center; /* zarovná obrázok na stred */
-    background-repeat: no-repeat; /* zabráni opakovaniu obrázka */
+    background-image: url('../assets/images/5.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
     height: 90vh;
 }
