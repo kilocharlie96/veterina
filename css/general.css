@@ -24,15 +24,24 @@ button:hover, button:active {
 
 a {
     text-decoration: none;
-    color: inherit;
+    color: var(--lch-brand-red);
 }
 
-h1 {
+a:hover, a:active {
+    text-shadow: 1px 1px 1px var(--lch-transparent-grey);
+}
+
+h1, h2 {
     color: var(--lch-brand-red);
 }
 
 img {
     max-width: 100%;
+}
+
+ul:not(.services) {
+    list-style: none;
+    padding-left: 0.9rem;
 }
 
 section {

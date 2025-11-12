@@ -6,7 +6,7 @@
     
     position: sticky;
     top: 0;
-    padding: 1rem;
+    padding: 0.5rem 1rem;
     
     background: var(--lch-brand-red);
     color: white;
@@ -29,7 +29,11 @@
 }
 
 .logo {
-    width: 40%;
+    width: 20%;
+}
+
+#telephone {
+    color: inherit;
 }
 
 #about {
