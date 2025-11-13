@@ -1,5 +1,5 @@
 [id] {
-  scroll-margin-top: 4rem;
+  scroll-margin-top: 5.5rem;
 }
 
 body{
@@ -7,7 +7,7 @@ body{
     flex-direction: row;
     justify-content: center;
 
-    background: var(--lch-creme);
+    background: var(--lch-vanilla);
     font-family: "Montserrat", sans-serif;
     font-optical-sizing: auto;
 }
@@ -36,7 +36,8 @@ h1, h2 {
 }
 
 h1 {
-    font-size: 1.8rem;
+    font-size: 2rem;
+    text-align: center;
 }
 
 img {
