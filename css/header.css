@@ -66,6 +66,10 @@ header {
 }
 
 .care-and-love {
-    padding-left: 1rem;
+    text-align: center;
+    margin-top: 0rem;
+}
 
+.care-and-love p {
+    margin-top: 0;
 }
