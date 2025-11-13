@@ -15,3 +15,8 @@ section:has(.gallery) {
 a .thumbnail {
     border-radius: 7%;
 }
+
+iframe {
+  width: 100%;
+  height: clamp(15rem, 80vw, 30rem);
+}

@@ -35,6 +35,10 @@ h1, h2 {
     color: var(--lch-brand-red);
 }
 
+h1 {
+    font-size: 2.5rem;
+}
+
 img {
     max-width: 100%;
 }
@@ -46,6 +50,10 @@ ul:not(.services) {
 
 section {
     padding: 1rem 2rem;
+}
+
+figure {
+    margin: 1rem 0;
 }
 
 dl, dt, dd {
