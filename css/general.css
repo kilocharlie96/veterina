@@ -50,12 +50,7 @@ li {
 }
 
 section {
-    margin: auto;
     padding: 1rem 2rem;
-}
-
-section:not(#welcome) {
-    max-width: 900px;
 }
 
 figure {

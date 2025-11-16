@@ -1,10 +1,10 @@
-#services li {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
+main {
+  max-width: 650px;
+  margin: auto;
+}
 
+#services li {
   height: 5.5rem;
-  width: 80%;
   background: var(--lch-green);
   padding: 1rem;
 
