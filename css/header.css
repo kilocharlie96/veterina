@@ -33,14 +33,14 @@ header {
 }
 
 .logo {
-    width: clamp(3rem, 20%, 7rem);
+    width: clamp(3rem, 20%, 6rem);
 }
 
 #telephone {
     color: inherit;
 }
 
-#about {
+#welcome {
     background-image: url('../assets/images/5.jpg');
     background-size: cover;
     background-position: center;
@@ -49,7 +49,7 @@ header {
     height: 100%;
 }
 
-#about article {
+#welcome article {
     height: 100%;
 
     display: flex;
@@ -57,7 +57,7 @@ header {
     align-items: center;
 }
 
-#about a {
+#welcome a {
     margin-top: auto;
     margin-bottom: 2rem;
 

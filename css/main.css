@@ -1,5 +1,9 @@
-section:has(.gallery) {
-  padding: 1rem 1.5rem;
+#services ul {
+  padding-left: 8vw;
+}
+
+#services ul li::marker {
+    content: "🐾 ";
 }
 
 .gallery {
@@ -7,7 +11,6 @@ section:has(.gallery) {
     grid-template-columns: 1fr 1fr;
     gap: 0.5rem;
 
-    
     padding: 0;
     list-style: none;
 }
