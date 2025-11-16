@@ -1,22 +1,28 @@
-#services ul {
-  padding-left: 8vw;
-}
+#services li {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 
-#services ul li::marker {
-    content: "🐾 ";
+  height: 5.5rem;
+  width: 80%;
+  background: var(--lch-green);
+  padding: 1rem;
+
+  font-weight: bold;
+  border-radius: 1rem;
 }
 
 .gallery {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 0.5rem;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 0.5rem;
 
-    padding: 0;
-    list-style: none;
+  padding: 0;
+  list-style: none;
 }
 
 a .thumbnail {
-    border-radius: 7%;
+  border-radius: 7%;
 }
 
 iframe {
