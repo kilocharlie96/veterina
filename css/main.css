@@ -3,12 +3,13 @@ main {
   margin: auto;
 }
 
-#services li {
+#services li a {
+  display: block;
   height: 5.5rem;
   background: var(--lch-green);
+  font-weight: bold;
   padding: 1rem;
 
-  font-weight: bold;
   border-radius: 1rem;
 }
 
