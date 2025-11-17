@@ -32,8 +32,14 @@ header {
     color: white;
 }
 
+
 .logo {
     width: clamp(3rem, 20%, 6rem);
+    transition: width 0.3s ease;
+}
+
+.logo.scrolled {
+    width: clamp(2rem, 15%, 4rem);
 }
 
 #telephone {

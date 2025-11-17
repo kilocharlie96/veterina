@@ -27,7 +27,7 @@ a {
 }
 
 a:hover, a:active {
-    text-shadow: 1px 1px 1px var(--lch-transparent-grey);
+    text-shadow: 0.01rem 0.01rem 0.5rem var(--lch-transparent-grey);
 }
 
 h1, h2 {
