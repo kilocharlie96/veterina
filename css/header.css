@@ -16,6 +16,18 @@ header {
     color: white;
 }
 
+.navbar button, .navbar svg, .navbar a:not(.logo) {
+    width: 100%;
+}
+
+.menu-scrolled {
+    width: 8%;
+}
+
+.phone-scrolled {
+    width: 6%;
+}
+
 #menu-container {
     display: none;
     position: fixed;
@@ -39,7 +51,7 @@ header {
 }
 
 .logo.scrolled {
-    width: clamp(2rem, 15%, 4rem);
+    width: clamp(2rem, 12%, 4rem);
 }
 
 #telephone {
