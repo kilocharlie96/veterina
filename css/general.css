@@ -61,10 +61,6 @@ figure {
     margin: 1.5rem 0;
 }
 
-dl, dt, dd {
-    border: 1px solid black;
-}
-
 footer {
     text-align: center;
 }

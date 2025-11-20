@@ -1,0 +1,45 @@
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 2rem;
+    font-family: system-ui, sans-serif;
+    font-size: 1rem;
+}
+
+table tr {
+    background: var(--lch-row-odd);
+    border-bottom: 1px solid #e5e5e5;
+}
+
+tbody > :first-child {
+  border-top: 1px solid #e5e5e5;
+}
+
+table tr:nth-child(even) {
+    background: var(--lch-row-even)
+}
+
+table td {
+    padding: 0.8rem 0.6rem;
+}
+
+table td:last-child {
+    text-align: right;
+    white-space: nowrap;
+    font-weight: 600;
+    color: #444;
+}
+
+h3 small {
+    font-size: 0.75em;
+    color: #666;
+}
+
+/* @media (max-width: 600px) {
+    table td {
+        padding: 0.6rem 0.3rem;
+    }
+    h3 {
+        font-size: 1.2rem;
+    }
+} */
