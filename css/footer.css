@@ -1,0 +1,11 @@
+.socials {
+    display: flex;
+    width: 30%;
+    max-width: 8rem;
+    margin: 0.5rem auto 2rem auto;
+    padding: 0;
+}
+
+.socials a {
+    margin: 0 0.25rem;
+}
