@@ -1,33 +1,32 @@
-table {
+table.pricelist {
     width: 100%;
     border-collapse: collapse;
     margin-bottom: 2rem;
-    font-family: system-ui, sans-serif;
     font-size: 1rem;
 }
 
-table tr {
+table.pricelist tr {
     background: var(--lch-row-odd);
     border-bottom: 1px solid #e5e5e5;
 }
 
-tbody > :first-child {
+.pricelist tbody > :first-child {
   border-top: 1px solid #e5e5e5;
 }
 
-table tr:nth-child(even) {
+table.pricelist tr:nth-child(even) {
     background: var(--lch-row-even)
 }
 
-table td {
+table.pricelist td {
     padding: 0.8rem 0.6rem;
 }
 
-table td:last-child {
+table.pricelist td:last-child {
     text-align: right;
     white-space: nowrap;
-    font-weight: 600;
     color: #444;
+    font-weight: 600;
 }
 
 h3 small {

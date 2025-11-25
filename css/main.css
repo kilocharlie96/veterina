@@ -34,8 +34,3 @@ iframe {
   width: 100%;
   height: clamp(15rem, 80vw, 30rem);
 }
-
-p:has(small) {
-  margin-bottom: 0;
-  padding-bottom: 1rem;
-}
