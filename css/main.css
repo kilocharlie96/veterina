@@ -66,3 +66,32 @@ iframe {
 table#office-hours tr td, thead {
   border-bottom: 1px solid #444;
 }
+
+#contact a {
+  text-decoration: underline;
+  text-decoration-color: var(--lch-brand-red);
+}
+
+#contact a:hover, #contact a:active {
+  text-decoration-color: var(--lch-hover)
+}
+
+/* @media (min-width: 900px) {
+
+  main {
+    max-width: 1024px;
+  }
+
+  #services ul {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+  }
+
+  #services li a {
+    min-height: 15vw;
+
+    font-size: 2rem;
+    text-align: center;
+  }
+} */
