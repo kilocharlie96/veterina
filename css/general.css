@@ -32,7 +32,7 @@ a:hover, a:active {
 
 #contact a, .created {
   text-decoration: underline;
-  text-decoration-color: var(--lch-brand-red);
+  text-decoration-color: var(--lch-brand-red-transparent);
 }
 
 #contact a:hover, #contact a:active,
