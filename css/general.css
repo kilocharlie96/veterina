@@ -30,6 +30,16 @@ a:hover, a:active {
     color: var(--lch-hover);
 }
 
+#contact a, .created {
+  text-decoration: underline;
+  text-decoration-color: var(--lch-brand-red);
+}
+
+#contact a:hover, #contact a:active,
+.created:hover, .created:active {
+  text-decoration-color: var(--lch-hover)
+}
+
 h1, h2 {
     color: var(--lch-brand-red);
 }
@@ -55,6 +65,10 @@ li {
 
 section {
     padding: 1rem 2rem;
+}
+
+article {
+    margin-top: 3rem;
 }
 
 figure {
