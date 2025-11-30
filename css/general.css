@@ -42,6 +42,11 @@ a:hover, a:active {
 
 h1, h2 {
     color: var(--lch-brand-red);
+    text-shadow: 1px 1px 1px white;
+}
+
+h1, h2, h3, p, a:not(#services a) {
+    text-shadow: 1px 1px 1px white;
 }
 
 h1 {
@@ -49,6 +54,7 @@ h1 {
     text-align: center;
     margin-top: 0.5rem;
 }
+
 
 img {
     width: 100%;
@@ -77,4 +83,10 @@ figure {
 
 footer {
     text-align: center;
+}
+
+@media (min-width: 780px) {
+    h1 {
+        font-size: 3.5rem;
+    }
 }
