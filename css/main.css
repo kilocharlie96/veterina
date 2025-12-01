@@ -4,17 +4,18 @@ main {
 }
 
 #services li a {
+  height: 5.5rem;
+
   display: flex;
   justify-content: center;
   align-items: center;
-
-  height: 5.5rem;
+  padding: 1rem;
+  border-radius: 1rem;
+  
   background: var(--lch-brand-red);
   color: var(--lch-creme);
   font-weight: bold;
-  padding: 1rem;
-
-  border-radius: 1rem;
+  text-shadow: none;
 }
 
 .gallery {

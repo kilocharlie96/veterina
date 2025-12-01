@@ -81,9 +81,9 @@ header {
 #welcome a {
     margin-top: auto;
     margin-bottom: 2rem;
-
     font-size: 1rem;
     font-weight: bold;
+    text-shadow: none;
 }
 
 .care-and-love {
