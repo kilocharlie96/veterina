@@ -15,7 +15,7 @@ main {
   background: var(--lch-brand-red);
   color: var(--lch-creme);
   font-weight: bold;
-  text-shadow: none;
+  text-shadow: none !important;
 }
 
 .gallery {
