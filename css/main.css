@@ -36,9 +36,9 @@ iframe {
 }
 
 a.navigate {
-  background: var(--lch-brand-red);
-  color: var(--lch-creme);
+  background: var(--lch-brand-red) !important;
   text-shadow: none !important;
+  color: var(--lch-creme) !important;
   padding: 0.75rem;
   border-radius: 1rem;
 }
