@@ -31,17 +31,21 @@ a .thumbnail {
   border-radius: 7%;
 }
 
-iframe {
-  width: 100%;
-  height: clamp(15rem, 80vw, 30rem);
+.town {
+  margin-bottom: 2.5rem;
 }
 
 a.navigate {
-  background: var(--lch-brand-red) !important;
-  text-shadow: none !important;
-  color: var(--lch-creme) !important;
+  background: var(--lch-brand-red);
+  text-shadow: none;
+  color: var(--lch-creme);
   padding: 0.75rem;
   border-radius: 1rem;
+}
+
+iframe {
+  width: 100%;
+  height: clamp(15rem, 80vw, 30rem);
 }
 
 #office-hours {
@@ -76,22 +80,8 @@ table#office-hours tr td, thead {
   border-bottom: 1px solid #444;
 }
 
-/* @media (min-width: 900px) {
-
-  main {
-    max-width: 1024px;
+@media (min-width: 564px) {
+  .navigate {
+    display: none;
   }
-
-  #services ul {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    gap: 10px;
-  }
-
-  #services li a {
-    min-height: 15vw;
-
-    font-size: 2rem;
-    text-align: center;
-  }
-} */
+}
