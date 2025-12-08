@@ -41,12 +41,10 @@ a:hover, a:active {
 }
 
 h1, h2 {
+    font-family: "Titan One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
     color: var(--lch-brand-red);
-    text-shadow: 1px 1px 1px white;
-}
-
-h1, h2, h3, p, a {
-    text-shadow: 1px 1px 1px white;
 }
 
 h1 {
@@ -54,7 +52,6 @@ h1 {
     text-align: center;
     margin-top: 0.5rem;
 }
-
 
 img {
     width: 100%;

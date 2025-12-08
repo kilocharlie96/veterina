@@ -60,12 +60,15 @@ header {
 }
 
 #welcome {
+    height: 100%;
+
     background-image: url('../assets/images/5.jpg');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-
-    height: 100%;
+    
+    font-family: "Titan One", sans-serif;
+    text-shadow: 0.08rem 0.08rem 0.08rem black;
 }
 
 #welcome article {
@@ -78,21 +81,21 @@ header {
     margin: 0 auto;
 }
 
+.care-and-love {
+    text-align: center;
+    margin-top: 0rem;
+    color: var(--lch-vanilla);
+}
+
+.care-and-love p {
+    margin: 0 6vw;
+}
+
 #welcome a {
     margin-top: auto;
     margin-bottom: 2rem;
     font-size: 1rem;
-    font-weight: bold;
-    text-shadow: none;
-}
-
-.care-and-love {
-    text-align: center;
-    margin-top: 0rem;
-}
-
-.care-and-love p {
-    margin: 0 12vw;
+    text-shadow: 0.02rem 0.02rem 0.02rem black;
 }
 
 @media (min-width: 780px) {

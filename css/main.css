@@ -3,6 +3,10 @@ main {
   margin: auto;
 }
 
+main h2 {
+  text-shadow: 0.05rem 0.05rem 0.05rem black;
+}
+
 #services li a {
   height: 5.5rem;
 
@@ -37,10 +41,14 @@ a .thumbnail {
 
 a.navigate {
   background: var(--lch-brand-red);
-  text-shadow: none;
-  color: var(--lch-creme);
   padding: 0.75rem;
-  border-radius: 1rem;
+
+  border-radius: 1.5rem;
+  box-shadow: 0.1rem 0.1rem 0.5rem black;
+  
+  font-size: 0.8rem;
+  color: var(--lch-creme);
+  font-family: "Titan One", sans-serif;
 }
 
 iframe {
