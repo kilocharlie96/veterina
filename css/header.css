@@ -20,7 +20,7 @@ header {
     width: 100%;
 }
 
-.menu-scrolled, .phone-scrolled {
+#btn-menu, #btn-call {
     color: var(--lch-vanilla);
 }
 
