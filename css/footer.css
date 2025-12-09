@@ -1,6 +1,6 @@
 footer {
     font-family: "Montseratt", sans-serif;
-    font-weight: bold;
+    font-weight: 700;
     text-align: center;
 }
 
@@ -19,6 +19,7 @@ footer {
 .cookies {
   font-size: 70%;
   padding: 0.5rem 2rem;
+  font-weight: 400;
 }
 
 .copyright {

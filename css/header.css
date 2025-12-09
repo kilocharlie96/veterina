@@ -20,6 +20,10 @@ header {
     width: 100%;
 }
 
+.menu-scrolled, .phone-scrolled {
+    color: var(--lch-vanilla);
+}
+
 .menu-scrolled {
     width: 8%;
 }
