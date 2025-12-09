@@ -6,6 +6,7 @@ table.pricelist {
     border-collapse: collapse;
     margin-bottom: 2rem;
     font-size: 0.9rem;
+    font-family: "Montserrat", sans-serif;
 }
 
 table.pricelist tr {
@@ -36,12 +37,3 @@ h3 small {
     font-size: 0.75em;
     color: #666;
 }
-
-/* @media (max-width: 600px) {
-    table td {
-        padding: 0.6rem 0.3rem;
-    }
-    h3 {
-        font-size: 1.2rem;
-    }
-} */

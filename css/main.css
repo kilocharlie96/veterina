@@ -9,6 +9,7 @@ main h2 {
 
 #services li a {
   height: 5.5rem;
+  background: var(--lch-brand-red);
 
   display: flex;
   justify-content: center;
@@ -16,10 +17,9 @@ main h2 {
   padding: 1rem;
   border-radius: 1rem;
   
-  background: var(--lch-brand-red);
   color: var(--lch-creme);
-  font-weight: bold;
-  text-shadow: none;
+  font-size: 1rem;
+  text-align: center;
 }
 
 .gallery {
@@ -48,7 +48,6 @@ a.navigate {
   
   font-size: 0.8rem;
   color: var(--lch-creme);
-  font-family: "Titan One", sans-serif;
 }
 
 iframe {
@@ -56,10 +55,17 @@ iframe {
   height: clamp(15rem, 80vw, 30rem);
 }
 
+#adress p {
+  font-family: "Montseratt", sans-serif;
+  font-weight: bold;
+}
+
 #office-hours {
   width: 95%;
   border-collapse: collapse;
   margin: auto;
+
+  font-family: "Montserrat", sans-serif;
   color: #444;
   font-size: 0.9rem;
 }
@@ -88,7 +94,21 @@ table#office-hours tr td, thead {
   border-bottom: 1px solid #444;
 }
 
+#contact a, .created {
+  text-decoration: underline;
+  text-decoration-color: var(--lch-brand-red-transparent);
+}
+
+#contact a:hover, #contact a:active,
+.created:hover, .created:active {
+  text-decoration-color: var(--lch-hover)
+}
+
 @media (min-width: 564px) {
+  #services li a {
+    font-size: 1.3rem;
+  }
+
   .navigate {
     display: none;
   }

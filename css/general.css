@@ -3,7 +3,8 @@ html {
 }
 
 body {
-    font-family: "Montserrat", sans-serif;
+    font-family: "Titan One", "Montserrat", sans-serif;
+    font-weight: 400;
     font-optical-sizing: auto;
 }
 
@@ -24,33 +25,28 @@ button:hover, button:active {
 a {
     text-decoration: none;
     color: var(--lch-brand-red);
+    font-family: "Montserrat", sans-serif;
+    font-weight: bold;
 }
 
 a:hover, a:active {
     color: var(--lch-hover);
 }
 
-#contact a, .created {
-  text-decoration: underline;
-  text-decoration-color: var(--lch-brand-red-transparent);
-}
-
-#contact a:hover, #contact a:active,
-.created:hover, .created:active {
-  text-decoration-color: var(--lch-hover)
-}
-
 h1, h2 {
-    font-family: "Titan One", sans-serif;
-    font-weight: 400;
-    font-style: normal;
     color: var(--lch-brand-red);
+    font-weight: 400;
 }
 
 h1 {
-    font-size: 2rem;
+    font-size: 3rem;
     text-align: center;
     margin-top: 0.5rem;
+}
+
+h3 {
+    font-family: "Montserrat", sans-serif;
+    font-weight: bold;
 }
 
 img {
@@ -78,12 +74,12 @@ figure {
     margin: 1.5rem 0;
 }
 
-footer {
-    text-align: center;
-}
-
 @media (min-width: 780px) {
     h1 {
-        font-size: 3.5rem;
+        font-size: 4.5rem;
+    }
+
+    h2 {
+        font-size: 2rem;
     }
 }

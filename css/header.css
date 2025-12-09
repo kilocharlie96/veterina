@@ -45,6 +45,10 @@ header {
     color: white;
 }
 
+#menu h2 {
+    font-size: 2rem;
+    margin-top: 0;
+}
 
 .logo {
     width: clamp(3rem, 20%, 6rem);
@@ -67,7 +71,6 @@ header {
     background-position: center;
     background-repeat: no-repeat;
     
-    font-family: "Titan One", sans-serif;
     text-shadow: 0.08rem 0.08rem 0.08rem black;
 }
 
@@ -101,5 +104,9 @@ header {
 @media (min-width: 780px) {
     .care-and-love p {
         font-size: 1.5rem;
+    }
+
+    #welcome a {
+        font-size: 1.3rem;
     }
 }
