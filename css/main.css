@@ -51,6 +51,10 @@ a.navigate {
   color: var(--lch-creme);
 }
 
+a.navigate:hover, a.navigate:active {
+  padding: 0.7rem;
+}
+
 iframe {
   width: 100%;
   height: clamp(15rem, 80vw, 30rem);

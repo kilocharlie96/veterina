@@ -24,28 +24,17 @@ header {
     margin-top: 0;
 }
 
-.logo {
-    width: clamp(3rem, 20%, 6rem);
-    transition: width 0.3s ease;
-}
-
-.logo.scrolled {
-    width: clamp(2rem, 12%, 4rem);
-}
-
-#telephone {
-    color: inherit;
-}
-
 #welcome {
     height: 100%;
 
-    background-image: url('../assets/images/5.jpg');
+    background-image: url('../assets/images/IMG_2292.jpg');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    
-    text-shadow: 0.08rem 0.08rem 0.08rem black;
+
+    padding: 1rem 0.1rem;
+    color: var(--lch-brand-red);
+    text-shadow: 0.08rem 0.08rem 0.08rem var(--lch-vanilla);
 }
 
 #welcome article {
@@ -59,28 +48,53 @@ header {
 }
 
 .care-and-love {
-    text-align: center;
-    margin-top: 0rem;
-    color: var(--lch-vanilla);
+    display: flex;
+    justify-content: end;
+    width: 100%;
 }
 
 .care-and-love p {
-    margin: 0 6vw;
+    width: 40%;
+    margin-top: 30vw;
 }
 
 #welcome a {
     margin-top: auto;
     margin-bottom: 2rem;
     font-size: 1rem;
-    text-shadow: 0.02rem 0.02rem 0.02rem black;
+    color: var(--lch-vanilla);
+    text-shadow: 0.05rem 0.05rem 0.05rem black;
+}
+
+#welcome a:hover, #welcome a:active {
+    color: var(--lch-creme);
+}
+
+@media (min-width: 523px) {
+    h1 {
+        font-size: 4rem;
+    }
+    .care-and-love p {
+        font-size: 1.5rem;
+        
+    }
 }
 
 @media (min-width: 780px) {
-    .care-and-love p {
-        font-size: 1.5rem;
-    }
 
     #welcome a {
         font-size: 1.3rem;
+    }
+}
+
+@media (min-width: 1200px) {
+    h1 {
+        font-size: 6rem;
+    }
+}
+
+@media (min-width: 1200px) {
+    h1 {
+        font-size: 8rem;
     }
 }
