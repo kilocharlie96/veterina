@@ -1,5 +1,6 @@
 header {
-    height: 90vh;
+    /* 90vh */
+    height: 100vh;
 }
 
 #menu-container {
@@ -55,10 +56,11 @@ header {
 
 .care-and-love p {
     width: 40%;
-    margin-top: 30vw;
+    margin-top: 40vw;
 }
 
 #welcome a {
+    display: none;
     margin-top: auto;
     margin-bottom: 2rem;
     font-size: 1rem;
@@ -68,6 +70,23 @@ header {
 
 #welcome a:hover, #welcome a:active {
     color: var(--lch-creme);
+}
+
+@media (max-height: 580px){
+    #welcome h1 {
+        max-width: 50%;
+        padding: 0 0.5rem;
+        font-size: 3rem;
+    }
+
+    #welcome article {
+        align-items: end;
+    }
+
+    #welcome p {
+        margin-top: 10vw;
+        font-size: 1rem;
+    }
 }
 
 @media (min-width: 523px) {
@@ -93,8 +112,12 @@ header {
     }
 }
 
-@media (min-width: 1200px) {
+@media (min-width: 2000px) {
     h1 {
-        font-size: 8rem;
+        font-size: 7rem;
+    }
+
+    #welcome p {
+        font-size: 3rem;
     }
 }
