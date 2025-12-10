@@ -72,9 +72,9 @@ header {
     color: var(--lch-creme);
 }
 
-@media (max-height: 580px){
+@media (max-height: 840px){
     #welcome h1 {
-        max-width: 50%;
+        /* max-width: 50%; */
         padding: 0 0.5rem;
         font-size: 3rem;
     }
@@ -95,7 +95,7 @@ header {
     }
     .care-and-love p {
         font-size: 1.5rem;
-        
+        margin-top: 30vw;
     }
 }
 
