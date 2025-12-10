@@ -2,36 +2,6 @@ header {
     height: 90vh;
 }
 
-.navbar {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-    
-    position: sticky;
-    top: 0;
-    padding: 0.5rem 1rem;
-    
-    background: var(--lch-brand-red);
-    color: white;
-}
-
-.navbar button, .navbar svg, .navbar a:not(.logo) {
-    width: 100%;
-}
-
-#btn-menu, #btn-call {
-    color: var(--lch-vanilla);
-}
-
-.menu-scrolled {
-    width: 8%;
-}
-
-.phone-scrolled {
-    width: 6%;
-}
-
 #menu-container {
     display: none;
     position: fixed;
