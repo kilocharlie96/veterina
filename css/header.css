@@ -35,7 +35,7 @@ header {
 
     padding: 1rem 0.1rem;
     color: var(--lch-brand-red);
-    text-shadow: 0.08rem 0.08rem 0.08rem var(--lch-vanilla);
+    text-shadow: 0.1rem 0.1rem 0.2rem var(--lch-vanilla);
 }
 
 #welcome article {
