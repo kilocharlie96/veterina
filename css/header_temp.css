@@ -19,19 +19,25 @@ img {
     max-width: clamp(8rem, 15vw, 40rem);
 }
 
-h1, .socials {
-    padding-right: 1rem;
+h1, h2, .socials {
+    padding-right: 0.5rem;
+}
+
+h1, h2 {
+    font-weight: 400;
 }
 
 h1 {
     margin: 0;
-    font-size: clamp(1.5rem, 3vw, 10rem);
+    font-size: clamp(1.2rem, 2vw, 10rem);
 }
 
-
+h2 {
+    font-size: clamp(0.75rem, 1.5vw, 7rem);
+}
 
 .socials {
-    padding-bottom: 1rem;
+    margin-bottom: 1rem;
 }
 
 a {
@@ -40,4 +46,22 @@ a {
 
 .socials img {
     width: clamp(4rem, 5vw, 15rem);
+}
+
+@media (max-width: 689px) {
+    h1, h2 {
+        padding-left: 50vw;
+    }
+
+    /* .headers {
+        box-shadow: 1px 1px 1px 1px black;
+    } */
+
+    .socials {
+        margin-right: auto;
+        margin-left: auto;
+        padding-right: 0;
+        border-radius: 0.7rem;
+        background: var(--lch-vanilla-transparent);
+    }
 }
