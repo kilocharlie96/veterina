@@ -1,0 +1,43 @@
+header {
+    font-family: "Titan One", "Montseratt", sans-serif;
+    color: var(--lch-brand-red);
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    justify-content: space-between;
+
+    height: 100vh;
+    width: 100vw;
+    background-image: url('../assets/images/IMG_2292.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    text-shadow: 0.1rem 0.05rem 0.2rem var(--lch-vanilla);
+}
+
+img {
+    max-width: clamp(8rem, 15vw, 40rem);
+}
+
+h1, .socials {
+    padding-right: 1rem;
+}
+
+h1 {
+    margin: 0;
+    font-size: clamp(1.5rem, 3vw, 10rem);
+}
+
+
+
+.socials {
+    padding-bottom: 1rem;
+}
+
+a {
+    text-decoration: none;
+}
+
+.socials img {
+    width: clamp(4rem, 5vw, 15rem);
+}
