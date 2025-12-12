@@ -48,20 +48,33 @@ h2 {
     width: clamp(4rem, 5vw, 15rem);
 }
 
+header > :last-child {
+  align-self: center;
+}
+
+footer {
+    font-family: "Montserrat", sans-serif;
+    font-size: clamp(0.7rem, 1.3vw, 2.5rem);
+    text-align: center;
+    color: var(--lch-vanilla);
+    text-shadow: 0.1rem 0.05rem 0.2rem black;
+}
+
+footer a {
+    color: var(--lch-anchor-temporary);
+}
+
+footer a:hover, footer a:active {
+    color: var(--lch-hover);
+}
+
 @media (max-width: 689px) {
     h1, h2 {
         padding-left: 50vw;
     }
-
-    /* .headers {
-        box-shadow: 1px 1px 1px 1px black;
-    } */
-
     .socials {
         margin-right: auto;
         margin-left: auto;
         padding-right: 0;
-        border-radius: 0.7rem;
-        background: var(--lch-vanilla-transparent);
     }
 }
