@@ -54,7 +54,7 @@ header > :last-child {
 
 footer {
     font-family: "Montserrat", sans-serif;
-    font-size: clamp(0.7rem, 1.3vw, 2.5rem);
+    font-size: clamp(0.7rem, 1vw, 2rem);
     text-align: center;
     color: var(--lch-vanilla);
     text-shadow: 0.1rem 0.05rem 0.2rem black;
