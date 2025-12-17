@@ -24,6 +24,7 @@ h1, h2, .socials {
 }
 
 h1, h2 {
+    padding-left: 50vw;
     font-weight: 400;
 }
 
@@ -54,7 +55,7 @@ header > :last-child {
 
 footer {
     font-family: "Montserrat", sans-serif;
-    font-size: clamp(0.7rem, 1vw, 2rem);
+    font-size: clamp(0.7rem, 1vw, 2.5rem);
     text-align: center;
     color: var(--lch-vanilla);
     text-shadow: 0.1rem 0.05rem 0.2rem black;
@@ -69,9 +70,6 @@ footer a:hover, footer a:active {
 }
 
 @media (max-width: 689px) {
-    h1, h2 {
-        padding-left: 50vw;
-    }
     .socials {
         margin-right: auto;
         margin-left: auto;
