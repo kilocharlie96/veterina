@@ -19,13 +19,13 @@ img {
     max-width: clamp(8rem, 15vw, 40rem);
 }
 
-h1, h2, .socials {
-    padding-right: 0.5rem;
+h1, h2 {
+    font-weight: 400;
 }
 
-h1, h2 {
+.headers {
+    padding-right: clamp(0.5rem, 1vw, 5rem);
     padding-left: 50vw;
-    font-weight: 400;
 }
 
 h1 {
@@ -69,10 +69,8 @@ footer a:hover, footer a:active {
     color: var(--lch-hover);
 }
 
-@media (max-width: 689px) {
+/* @media (min-width: 542px) {
     .socials {
-        margin-right: auto;
-        margin-left: auto;
-        padding-right: 0;
+        
     }
-}
+} */
