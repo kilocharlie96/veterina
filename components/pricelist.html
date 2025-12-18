@@ -1,12 +1,59 @@
-<h2>Cenník</h2>
+<div id="pricelist-vue">
+  <h2>Orientačný cenník</h2>
+  <p><small>Cena pre konkrétneho pacienta je upresnená po vyšetrení.</small></p>
 
-<h3 id="vaccination">Očkovanie</h3>
+  <section v-for="(groups, sectionName) in pricelist" :key="sectionName">
+    <h3>{{ sectionName }}</h3>
+
+    <div v-for="(items, groupName) in groups" :key="groupName">
+      <h4 v-if="groupName">{{ groupName }}</h4>
+
+      <ul>
+        <li v-for="row in items" :key="row.id">
+          <strong>{{ row.item }}</strong> {{ row.price }}
+        </li>
+      </ul>
+    </div>
+  </section>
+</div>
+
+<script>
+  const { createApp, ref, onMounted } = Vue;
+
+  createApp({
+    setup() {
+      const pricelist = ref({});
+
+      onMounted(async () => {
+        const response = await fetch('../pricelist.json');
+        pricelist.value = await response.json();
+      });
+
+      return { pricelist };
+    }
+  }).mount('#pricelist-vue');
+</script>
+
+<!-- <h2>Orientačný cenník</h2>
+
+<h3 id="vaccination">Vakcinácia</h3>
 <table class="pricelist">
+    <caption>Pes</caption>
     <tbody>
-        <tr><td>Besnota</td><td>18 €</td></tr>
-        <tr><td>Ovčie kiahne</td><td>180 €</td></tr>
-        <tr><td>Covid-19</td><td>110 €</td></tr>
-        <tr><td>Záškrt</td><td>60 €</td></tr>
+        <tr>
+            <td>Puppy primovakcína (DP, DHP)</td><td>17 €</td>
+        </tr>
+        <tr><td>Infekčné ochorenia (DHPPi + L)</td><td>20 €</td></tr>
+        <tr><td>Kombinovaná (infekčné + besnota)</td><td>25 €</td></tr>
+        <tr><td>Nadštandard ( Borelióza, Microsporum, KC...)</td><td><small>od</small> 20 €</td></tr>
+    </tbody>
+</table>
+<table class="pricelist">
+    <caption>Mačka</caption>
+    <tbody>
+        <tr><td>Infekčné ochorenia (CVR)</td><td>25 €</td></tr>
+        <tr><td>Besnota</td><td>17 €</td></tr>
+        <tr><td>Nadštandard (Purevax...)</td><td><small>od</small> 30 €</td></tr>
     </tbody>
 </table>
 
@@ -50,4 +97,4 @@
     <tbody>
         <tr><td>Vytvorenie jedálnička</td><td>30 €</td></tr>
     </tbody>
-</table>
+</table> -->
