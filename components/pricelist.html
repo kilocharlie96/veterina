@@ -25,7 +25,7 @@
       const pricelist = ref({});
 
       onMounted(async () => {
-        const response = await fetch('../pricelist.json');
+        const response = await fetch('/pricelist.json');
         pricelist.value = await response.json();
       });
 
