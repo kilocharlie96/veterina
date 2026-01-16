@@ -1,12 +1,18 @@
-#pricelist h3 {
-    font-size: 1rem;
-}
-table.pricelist {
+.pricelist {
     width: 100%;
     border-collapse: collapse;
     margin-bottom: 2rem;
     font-size: 0.9rem;
     font-family: "Montserrat", sans-serif;
+}
+
+.pricelist caption {
+    text-align-last: left;
+    font-weight: bold;
+}
+
+#pricelist h3 {
+    font-size: 1rem;
 }
 
 table.pricelist tr {

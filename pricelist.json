@@ -1,0 +1,91 @@
+{
+  "Vakcinácia": {
+    "Pes": [
+      { "id": 1, "item": "Puppy primovakcína (DP, DHP)", "price": "17 €" },
+      { "id": 2, "item": "Infekčné ochorenia (DHPPi + L)", "price": "20 €" },
+      { "id": 3, "item": "Besnota", "price": "17 €" },
+      { "id": 4, "item": "Kombinovaná (infekčné + besnota)", "price": "25 €" },
+      { "id": 5, "item": "Nadštandard (Borelióza, Microsporum, KC...)", "price": "od 20 €" }
+    ],
+    "Mačka": [
+      { "id": 6, "item": "Infekčné ochorenia (CVR)", "price": "25 €" },
+      { "id": 7, "item": "Besnota", "price": "17 €" },
+      { "id": 8, "item": "Nadštandard (Purevax...)", "price": "od 30 €" }
+    ],
+    "Králik": [
+      { "id": 9, "item": "Infekčné ochorenia (mor + myxomatóza)", "price": "od 20 €" }
+    ]
+  },
+
+  "Základné úkony a diagnostika": {
+    "": [
+      { "id": 10, "item": "Klinické vyšetrenie", "price": "od 15 €" },
+      { "id": 11, "item": "Kontrolné klinické vyšetrenie", "price": "od 7 €" },
+      { "id": 12, "item": "Drobné úkony (pazúriky, kliešť, žliazky, stehy,...)", "price": "4 €" },
+      { "id": 13, "item": "Konzultácia", "price": "od 15 €" },
+      { "id": 14, "item": "Čipovanie s registráciou", "price": "17 €" },
+      { "id": 15, "item": "Preregistrovanie čipu", "price": "5 €" },
+      { "id": 16, "item": "Vystavenie Pet-pasu", "price": "20 €" },
+      { "id": 17, "item": "Injekčná aplikácia lieku", "price": "od 3 €" },
+      { "id": 18, "item": "Kanyla + kanylácia", "price": "5 €" },
+      { "id": 19, "item": "Infúzna terapia", "price": "od 15 €" },
+      { "id": 20, "item": "Recept", "price": "2 €" },
+      { "id": 21, "item": "Mikroskopické vyšetrenie (stery, zoškraby, krvný náter,...)", "price": "od 15 €" },
+      { "id": 22, "item": "Koprologické vyšetrenie (Unilabs – endoparazity)", "price": "6 €" },
+      { "id": 23, "item": "Vyšetrenie moču fyzikálne/chemické / sediment mikroskopicky", "price": "20 €" },
+      { "id": 24, "item": "USG diagnostika (gravidita)", "price": "15 €" },
+      { "id": 25, "item": "USG diagnostika (základná)", "price": "25 €" },
+      { "id": 26, "item": "USG diagnostika (rozšírená)", "price": "35 €" },
+      { "id": 27, "item": "Abdominocentéza (diagnostická)", "price": "20 €" },
+      { "id": 28, "item": "Abdominocentéza (vypustenie)", "price": "od 50 €" },
+      { "id": 29, "item": "Thorakocentéza", "price": "od 70 €" },
+      { "id": 30, "item": "Katetrizácia (úkon, katéter)", "price": "20 €" },
+      { "id": 31, "item": "Transfúzia (kanyla, set, úkon...)", "price": "100 €" },
+      { "id": 32, "item": "Asistovaný pôrod", "price": "25 €/hod." },
+      { "id": 33, "item": "Klystír", "price": "od 60 €" },
+      { "id": 34, "item": "Eutanázia", "price": "od 30 €" },
+      { "id": 35, "item": "Služba mimo ordinačných hodín / nedeľa / sviatok", "price": "30 €" },
+      { "id": 36, "item": "Výjazdové služby (vakcinácia, čipovanie, drobné úkony)", "price": "od 10 € + úkon" }
+    ]
+  },
+
+  "Vyšetrenie krvi": {
+    "": [
+      { "id": 37, "item": "Odber krvi", "price": "7 €" },
+      { "id": 38, "item": "Hematologické vyšetrenie krvi", "price": "20 €" },
+      { "id": 39, "item": "Biochemické vyšetrenie krvi", "price": "40 €" },
+      { "id": 40, "item": "Progesterón (Unilabs)", "price": "20 €" },
+      { "id": 41, "item": "Glc glukomerom", "price": "5 €" }
+    ]
+  },
+
+  "Ošetrenie uší": {
+    "": [
+      { "id": 42, "item": "Otoskopia", "price": "7 €" },
+      { "id": 43, "item": "Čistenie", "price": "7 €" },
+      { "id": 44, "item": "Ster + mikroskopické vyšetrenie", "price": "15 €" },
+      { "id": 45, "item": "Ster + kultivácia a citlivosť (Unilabs)", "price": "30 €" },
+      { "id": 46, "item": "Othematóm", "price": "od 80 €" },
+      { "id": 47, "item": "Vypustenie othematómu", "price": "od 7 €" }
+    ]
+  },
+
+  "Chirurgia mäkkých tkanív": {
+    "": [
+      { "id": 48, "item": "Anestéza (injekčná)", "price": "30 – 80 €" },
+      { "id": 49, "item": "Anestéza (inhalačná)", "price": "80 – 130 €" },
+      { "id": 50, "item": "Operácia (laparotómia, cudzie teleso, močové kamene...)", "price": "od 200 €" },
+      { "id": 51, "item": "Hernia umbilicalis – pupočný pruh – šteňa", "price": "od 60 €" },
+      { "id": 52, "item": "Hernia inguinalis – inguinálny pruh – šteňa", "price": "od 80 €" },
+      { "id": 53, "item": "Enukleácia", "price": "od 100 €" },
+      { "id": 54, "item": "Mastektómia", "price": "od 150 €" },
+      { "id": 55, "item": "Extirpácia útvaru", "price": "od 100 €" },
+      { "id": 56, "item": "Cisársky rez", "price": "od 250 €" },
+      { "id": 57, "item": "Pyometra", "price": "od 250 €" },
+      { "id": 58, "item": "Kastrácia kocúr", "price": "35 €" },
+      { "id": 59, "item": "Kastrácia pes", "price": "od 90 €" },
+      { "id": 60, "item": "Kastrácia / sterilizácia mačka", "price": "od 65 €" },
+      { "id": 61, "item": "Kastrácia / sterilizácia sučka", "price": "od 150 €" }
+    ]
+  }
+}
