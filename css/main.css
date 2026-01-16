@@ -7,20 +7,31 @@ main h2 {
   text-shadow: 0.05rem 0.05rem 0.05rem black;
 }
 
-#services li a {
-  height: 5.5rem;
-  background: var(--lch-brand-red);
+#services li {
+  background: white;
 
+  width: 100%;
+  height: 20vw;
+}
+
+#services img {
+  height: 100%;
+}
+
+#services li a {
   display: flex;
-  justify-content: center;
   align-items: center;
-  padding: 1rem;
-  border-radius: 1rem;
+  justify-content: center;
+
+  width: 100%;
+  height: 30%;
+
+  box-shadow: 1px black;
   
-  color: var(--lch-creme);
+  color: var(--lch-brand-red);
   font-size: 1rem;
   text-align: center;
-  font-weight: 400;
+  font-weight: 800;
 }
 
 .gallery {
