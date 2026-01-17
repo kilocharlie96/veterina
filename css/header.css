@@ -161,35 +161,40 @@ img {
     max-width: clamp(8rem, 15vw, 40rem);
 }
 
-h1, h2 {
-    font-weight: 400;
-}
-
 .headers {
     padding-right: clamp(0.5rem, 1vw, 5rem);
     padding-left: 50vw;
 }
 
-h1 {
-    margin: 0;
-    font-size: clamp(1.2rem, 2vw, 10rem);
+.care-and-love p{
+    padding: 1.5rem;
+
+    font-size: 1.25rem;
+    text-align: end;
 }
 
-h2 {
-    font-size: clamp(0.75rem, 1.5vw, 7rem);
-}
+header a {
+    width: 100%;
 
-.socials {
     margin-bottom: 1rem;
+    padding: 1rem;
+
+    font-family: "Titan One", "Montseratt", sans-serif;
+    font-weight: 400;
+
 }
+
+/* .socials {
+    margin-bottom: 1rem;
+} */
 
 .text-decoration-none {
     text-decoration: none;
 }
 
-.socials img {
+/* .socials img {
     width: clamp(4rem, 5vw, 15rem);
-}
+} */
 
 header > :last-child {
   align-self: center;

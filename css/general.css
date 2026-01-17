@@ -39,10 +39,13 @@ h1, h2, h3, h4 {
 }
 
 h1 {
-    font-size: 12vw;
-    text-align: center;
+    font-size: clamp(2rem, 2vw, 10rem);
     margin-top: 0.5rem;
     padding: 0 2.5rem;
+}
+
+h2 {
+    font-size: clamp(0.75rem, 1.5vw, 7rem);
 }
 
 h3 {
@@ -75,10 +78,19 @@ figure {
     margin: 1.5rem 0;
 }
 
-.flex-center {
+.has-box-shadow {
+    box-shadow: 0 6px 16px rgba(0, 0, 0, 0.5);
+    background: rgba(255, 255, 255, 0.5);
+}
+
+.has-flex-center {
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+.has-text-center {
+    text-align: center;
 }
 
 @media (min-width: 780px) {
