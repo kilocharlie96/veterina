@@ -17,7 +17,7 @@
 }
 
 #btn-menu, #btn-call {
-    color: var(--lch-vanilla);
+    color: var(--lch-row-even);
 }
 
 .menu-scrolled {

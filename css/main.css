@@ -8,7 +8,7 @@ main h2 {
 }
 
 #services li {
-  background: var(--lch-creme);
+  background: var(--lch-light-grey);
 
   border-radius: 0.75rem;
   overflow: hidden;

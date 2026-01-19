@@ -9,6 +9,10 @@ body {
     font-optical-sizing: auto;
 }
 
+.app {
+    background: var(--lch-row-even);
+}
+
 [id] {
   scroll-margin-top: 6.75rem;
 }

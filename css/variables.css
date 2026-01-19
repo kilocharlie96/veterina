@@ -4,7 +4,7 @@
 */
 
 :root {
-    --lch-creme: oklch(91.583% 0.0001 271.152);
+    --lch-light-grey: oklch(91.583% 0.0001 271.152);
     --lch-vanilla: oklch(98.039% 0.01985 97.565);
     --lch-row-odd: oklch(96.948% 0.05624 97.519);
     --lch-row-even: oklch(98.511% 0.00011 271.152);
