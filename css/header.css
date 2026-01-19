@@ -157,20 +157,22 @@ header {
     margin-top: 0;
 }
 
-img {
-    max-width: clamp(8rem, 15vw, 40rem);
-}
-
 .headers {
     padding-right: clamp(0.5rem, 1vw, 5rem);
     padding-left: 50vw;
 }
 
-.care-and-love p{
+.care-and-love h2 {
     padding: 1.5rem;
 
-    font-size: 1.25rem;
-    text-align: end;
+    font-size: clamp(1.1rem, 1.5vw, 7rem);
+    text-align: right;
+}
+
+@media (min-width: 670px) {
+  .care-and-love h2 {
+    padding-left: 5rem;
+  }
 }
 
 header a {
