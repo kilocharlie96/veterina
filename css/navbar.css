@@ -29,7 +29,7 @@
 }
 
 .logo {
-    width: clamp(3rem, 10%, 6rem);
+    width: clamp(3rem, 8%, 6rem);
     transition: width 0.3s ease;
 }
 

@@ -68,13 +68,9 @@ header a {
 
 }
 
-/* .socials img {
-    width: clamp(4rem, 5vw, 15rem);
-} */
-
 
 /* DESKTOP */
-@media (min-width: 760px) {
+@media (min-width: 660px) {
     .header-container {
         justify-content: center;
         align-items: start;
@@ -87,7 +83,6 @@ header a {
     header h2 {
         max-width: 34ch;
         font-family: 'Montseratt', sans-serif;
-        color: black;
         color: #5b5757;
     }
 
