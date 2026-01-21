@@ -1,7 +1,4 @@
 header {
-    font-family: "Titan One", "Montseratt", sans-serif;
-    color: var(--lch-brand-red);
-
     display: flex;
     justify-content: end;
 
@@ -11,7 +8,7 @@ header {
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    text-shadow: 0.1rem 0.05rem 0.2rem var(--lch-vanilla);
+    text-shadow: 0 0.05rem 0.2rem var(--lch-vanilla);
 }
 
 #menu-container {
@@ -44,28 +41,25 @@ header {
     justify-content: space-between;
 }
 
-header h1, header h2, header a {
+.header-container h1, .header-container h2, .header-container a {
     box-shadow: 0 6px 16px rgba(0, 0, 0, 0.5);
     background: rgba(255, 255, 255, 0.5);
 }
 
-header h2 {
+.header-container h2 {
     padding: 1.5rem;
     padding-left: min(5rem, 17%);
 
-    font-size: clamp(1.1rem, 1.5vw, 7rem);
     text-align: right;
 }
 
-header a {
+.header-container a {
     width: 100%;
 
     margin-bottom: 2rem;
     padding: 1rem;
 
-    font-family: "Titan One", "Montseratt", sans-serif;
     font-weight: 400;
-
 }
 
 
@@ -80,13 +74,13 @@ header a {
         max-width: 12ch;
     }
 
-    header h2 {
+    .header-container h2 {
         max-width: 34ch;
         font-family: 'Montseratt', sans-serif;
-        color: #5b5757;
+        color: var(--lch-grey);
     }
 
-    header h1, header h2 {
+    .header-container h1, .header-container h2 {
         box-shadow: none;
         background: none;
         margin: 0;
@@ -95,7 +89,7 @@ header a {
         text-align: left;
     }
 
-    header a {
+    .header-container a {
         width: auto;
         background: var(--lch-brand-red);
         padding: 1rem;

@@ -4,7 +4,7 @@ html {
 }
 
 body {
-    font-family: "Titan One", "Montserrat", sans-serif;
+    font-family: "Montserrat", sans-serif;
     text-align: center;
     font-weight: 400;
     font-optical-sizing: auto;
@@ -30,9 +30,6 @@ button:hover, button:active {
 
 a {
     text-decoration: none;
-    color: var(--lch-brand-red);
-    font-family: "Montserrat", sans-serif;
-    font-weight: bold;
 }
 
 a:hover, a:active {
@@ -41,23 +38,19 @@ a:hover, a:active {
 
 h1 {
     font-size: clamp(2.5rem, 4vw, 15rem);
+    font-family: 'Titan One', 'Montserrat', sans-serif;
+    color: var(--lch-brand-red);
+
     margin-top: 0.5rem;
     padding: 0.75rem 2.5rem;
 }
 
-
 h2 {
-    font-size: clamp(0.75rem, 1.5vw, 7rem);
+    font-size: clamp(1.1rem, 1.5vw, 7rem);
 }
 
-h3 {
-    font-family: "Montserrat", sans-serif;
-    font-weight: 800;
-}
-
-h1, h2, h3, h4 {
+h1, h2 {
     color: var(--lch-brand-red);
-    font-weight: 400;
 }
 
 img {
