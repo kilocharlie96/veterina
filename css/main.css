@@ -12,7 +12,7 @@ main {
   min-height: 16vh;
 }
 
-#services li a {
+.services-item {
   display: flex;
 
   width: 100%;
@@ -24,17 +24,12 @@ main {
   font-weight: 800;
 }
 
-.gallery {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: 0.5rem;
-
-  padding: 0;
-  list-style: none;
+.services-item img {
+  flex: 1;
 }
 
-a .thumbnail {
-  border-radius: 7%;
+.services-item h2 {
+  flex: 5;
 }
 
 .town {
