@@ -21,11 +21,11 @@
 }
 
 .menu-scrolled {
-    width: 8%;
+    width: 7%;
 }
 
 .phone-scrolled {
-    width: 6%;
+    width: 5%;
 }
 
 .logo {
@@ -34,7 +34,7 @@
 }
 
 .logo.scrolled {
-    width: clamp(2rem, 12%, 4rem);
+    width: clamp(2rem, 7%, 4rem);
 }
 
 #telephone {
