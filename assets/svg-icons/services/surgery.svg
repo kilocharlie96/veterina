@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Uploaded to: SVG Repo, www.svgrepo.com, Generator: SVG Repo Mixer Tools -->
+
+<svg
+   width="800px"
+   height="800px"
+   viewBox="0 0 24 24"
+   fill="none"
+   version="1.1"
+   id="svg2"
+   sodipodi:docname="ssurgery.svg"
+   inkscape:version="1.4.3 (0d15f75, 2025-12-25)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs2">
+    <inkscape:path-effect
+       effect="spiro"
+       id="path-effect5"
+       is_visible="true"
+       lpeversion="1" />
+    <inkscape:path-effect
+       effect="spiro"
+       id="path-effect1"
+       is_visible="true"
+       lpeversion="1" />
+  </defs>
+  <sodipodi:namedview
+     id="namedview2"
+     pagecolor="#ffffff"
+     bordercolor="#999999"
+     borderopacity="1"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:zoom="0.72036503"
+     inkscape:cx="124.24257"
+     inkscape:cy="447.68969"
+     inkscape:window-width="1920"
+     inkscape:window-height="1017"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg2" />
+  <path
+     id="path1"
+     style="fill:#660033;fill-opacity:1"
+     inkscape:label="PawPrint1"
+     d="M 279.05429 255.35774 C 263.47967 255.53544 248.15812 260.86614 235.19777 269.505 C 213.71346 283.82562 198.78098 307.19405 193.46337 332.4602 C 188.67223 355.22488 191.42009 379.25028 199.47597 401.07431 C 208.24375 424.82696 223.5427 446.48356 244.39383 460.84644 C 263.00432 473.6659 285.91587 480.37452 308.45477 478.73552 C 330.99368 477.09651 352.9623 466.94071 368.18191 450.23586 C 381.24762 435.89509 389.09959 417.17378 391.59093 397.93414 C 394.08227 378.6945 391.37604 358.97187 385.15836 340.59495 C 377.03089 316.5735 362.54529 294.28606 342.00939 279.40782 C 335.02639 274.34863 327.43386 270.19071 319.72735 266.32194 C 314.4379 263.66656 309.06851 261.13394 303.45846 259.24803 C 295.61367 256.61087 287.32995 255.26331 279.05429 255.35774 z M 306.40274 305.11157 L 306.42054 347.53522 L 345.15225 347.61166 L 345.17005 384.4501 L 306.43778 384.50785 L 306.40274 426.96945 L 272.61505 426.9502 L 272.61505 384.4886 L 233.90058 384.4886 L 233.88277 347.53522 L 272.61505 347.53522 L 272.61505 305.13082 L 306.40274 305.11157 z "
+     transform="matrix(0.10533549,0,0,0.10654526,-18.794477,-27.108426)" />
+</svg>

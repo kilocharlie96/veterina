@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Uploaded to: SVG Repo, www.svgrepo.com, Generator: SVG Repo Mixer Tools -->
+
+<svg
+   width="800"
+   height="800"
+   viewBox="0 0 24 24"
+   version="1.1"
+   id="svg1"
+   sodipodi:docname="drop-svgrepo-com.svg"
+   inkscape:version="1.4.3 (0d15f75, 2025-12-25)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <sodipodi:namedview
+     id="namedview1"
+     pagecolor="#ffffff"
+     bordercolor="#999999"
+     borderopacity="1"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:zoom="0.72036503"
+     inkscape:cx="392.16229"
+     inkscape:cy="494.88799"
+     inkscape:window-width="1920"
+     inkscape:window-height="1017"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg1" />
+  <title
+     id="title1">/svg/ic-drop</title>
+  <desc
+     id="desc1">Created with Sketch.</desc>
+  <defs
+     id="defs1" />
+  <g
+     id="Page-1"
+     stroke="none"
+     stroke-width="1"
+     fill="none"
+     fill-rule="evenodd"
+     transform="matrix(1.251958,0,0,1.251958,-3.0138501,-3.650664)"
+     style="fill:#660033;fill-opacity:1">
+    <g
+       id="ic-drop"
+       fill-rule="nonzero"
+       fill="#4a4a4a"
+       style="fill:#660033;fill-opacity:1">
+      <path
+         d="m 12,6.1752081 c 0,0 -5,6.0789369 -5,8.8199109 0,2.740974 2.2385763,4.962972 5,4.962972 2.761424,0 5,-2.221998 5,-4.962972 0,-2.740974 -5,-8.8199109 -5,-8.8199109 z M 10.4684,4.8621002 12,3 13.5316,4.8621002 c 0.04556,0.055387 0.125392,0.1539085 0.234677,0.2910558 0.179006,0.224642 0.377664,0.4787333 0.591173,0.757823 0.609864,0.7971856 1.219877,1.6391529 1.792359,2.4920858 0.413095,0.6154634 0.791935,1.2152644 1.129399,1.7940022 C 18.376668,12.079166 19,13.63016 19,14.995119 19,18.876882 15.853581,22 12,22 8.1464192,22 5,18.876882 5,14.995119 5,13.63016 5.6233323,12.079166 6.7207915,10.197067 7.0582556,9.6183292 7.4370961,9.0185282 7.8501907,8.4030648 8.4226732,7.5501319 9.0326857,6.7081646 9.6425497,5.910979 9.8560592,5.6318893 10.054717,5.377798 10.233723,5.153156 10.343008,5.0160087 10.422844,4.917487 10.4684,4.8621002 Z M 12.75,18 c 0.29354,0 0.681306,-0.06463 1.08541,-0.26668 C 14.549844,17.376103 15,16.70087 15,15.75 15,15.335786 14.664214,15 14.25,15 c -0.414214,0 -0.75,0.335786 -0.75,0.75 0,0.36163 -0.112344,0.530147 -0.33541,0.64168 C 13.006194,16.470878 12.83146,16.5 12.75,16.5 12.335786,16.5 12,16.835786 12,17.25 12,17.664214 12.335786,18 12.75,18 Z"
+         id="Combined-Shape"
+         style="fill:#660033;fill-opacity:1" />
+    </g>
+  </g>
+  <metadata
+     id="metadata1">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:title>/svg/ic-drop</dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+</svg>

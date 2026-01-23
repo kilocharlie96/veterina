@@ -46,7 +46,7 @@ h1 {
 }
 
 h2 {
-    font-size: clamp(1.1rem, 1.5vw, 7rem);
+    font-size: clamp(1.3rem, 1.5vw, 7rem);
 }
 
 h1, h2 {
@@ -76,10 +76,4 @@ article {
 
 figure {
     margin: 1.5rem 0;
-}
-
-.has-flex-center {
-    display: flex;
-    align-items: center;
-    justify-content: center;
 }

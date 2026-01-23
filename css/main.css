@@ -3,33 +3,42 @@ main {
   margin: auto;
 }
 
-#services li {
-  background: var(--lch-light-grey);
-
-  border-radius: 0.75rem;
-
-  width: 100%;
-  min-height: 16vh;
-}
-
 .services-item {
   display: flex;
-
+  align-items: center;
   width: 100%;
-  height: 30%;
+  min-height: 16vh;
+
+  background-image: 
+    linear-gradient( 
+      to right,
+      var(--lch-row-even),
+      var(--lch-light-grey)
+    );
+
+    border-radius: 0.75rem;
+}
+
+.services-item a {
+  display: flex;
+  align-items: center;
   
-  color: var(--lch-brand-red);
+  padding-right: 1rem;
+  padding-left: 2rem;
+
   font-size: 1rem;
-  text-align: center;
-  font-weight: 800;
 }
 
 .services-item img {
   flex: 1;
+  min-width: 2.5rem;
 }
 
 .services-item h2 {
   flex: 5;
+  margin: 0;
+  text-align: left;
+  padding-left: 2rem;
 }
 
 .town {
@@ -106,7 +115,6 @@ table#office-hours tr td, thead {
 }
 
 @media (min-width: 564px) {
-
   .navigate {
     display: none;
   }
