@@ -1,0 +1,27 @@
+.pricelist-section {
+    margin-top: 2rem;
+    padding: 1rem;
+}
+
+.pricelist-row {
+    display: grid;
+    place-items: center;
+
+    border-top: 1px solid rgb(159, 159, 159);
+
+    font-weight: 500;
+    padding: 0.25rem;
+}
+
+.pricelist-row:nth-child(odd) {
+    background: var(--lch-light-grey);
+}
+
+.pricelist-row:last-child {
+    border-bottom: 1px solid rgb(159, 159, 159);
+}
+
+.price {
+    font-weight: 300;
+    white-space: nowrap;
+}

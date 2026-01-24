@@ -2,21 +2,21 @@
   <h2>Orientačný cenník</h2>
   <p><small>Cena pre konkrétneho pacienta je upresnená po vyšetrení.</small></p>
 
-  <section v-for="(groups, sectionName) in pricelist" :key="sectionName">
-<h3 :id="sectionName
-    .normalize('NFD')
-    .replace(/[\u0300-\u036f]/g, '')
-    .toLowerCase()
-    .replace(/\s+/g, '-')">
-    {{ sectionName }}
-</h3>
+  <section class="pricelist-section" v-for="(groups, sectionName) in pricelist" :key="sectionName">
+    <h3 :id="sectionName
+        .normalize('NFD')
+        .replace(/[\u0300-\u036f]/g, '')
+        .toLowerCase()
+        .replace(/\s+/g, '-')">
+        {{ sectionName }}
+    </h3>
 
     <div v-for="(items, groupName) in groups" :key="groupName">
       <h4 v-if="groupName">{{ groupName }}</h4>
 
       <ul>
-        <li v-for="row in items" :key="row.id">
-          <strong>{{ row.item }}</strong> {{ row.price }}
+        <li class="pricelist-row" v-for="row in items" :key="row.id">
+          {{ row.item }} <small class="price">{{ row.price }}</small>
         </li>
       </ul>
     </div>

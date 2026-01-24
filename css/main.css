@@ -9,13 +9,17 @@ main h2:not(.services-item h2) {
 
 #services {
   border-top: none;
+  padding: 0 2rem;
 }
 
 .services-item {
   display: flex;
   align-items: center;
+
   width: 100%;
   min-height: 16vh;
+
+  margin-top: 1rem;
 
   background-image: 
     linear-gradient( 
