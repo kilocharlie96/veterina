@@ -3,6 +3,14 @@ main {
   margin: auto;
 }
 
+main h2:not(.services-item h2) {
+  font-size: clamp(1.6rem, 2.2vw, 3.5rem);
+}
+
+#services {
+  border-top: none;
+}
+
 .services-item {
   display: flex;
   align-items: center;
