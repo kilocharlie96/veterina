@@ -30,6 +30,8 @@ button:hover, button:active {
 
 a {
     text-decoration: none;
+    color: var(--lch-brand-red);
+    font-weight: 600;
 }
 
 a:hover, a:active {
@@ -49,7 +51,7 @@ h2 {
     font-size: clamp(1.3rem, 1.5vw, 3rem);
 }
 
-h1, h2, h3 {
+h1, h2, h3, h4 {
     color: var(--lch-brand-red);
 }
 
