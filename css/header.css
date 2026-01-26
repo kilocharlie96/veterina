@@ -11,28 +11,6 @@ header {
     text-shadow: 0 0.05rem 0.2rem var(--lch-vanilla);
 }
 
-#menu-container {
-    display: none;
-    position: fixed;
-    height: 100vh;
-    width: 100vw;
-    background: var(--lch-transparent-grey);
-}
-
-#menu {
-    height: 100%;
-    width: 80%;
-    max-width: 33rem;
-    background: wheat;
-    padding: 2rem;
-    color: white;
-}
-
-#menu h2 {
-    font-size: 2rem;
-    margin-top: 0;
-}
-
 .header-container {
     height: 100%;
 
@@ -96,7 +74,7 @@ header {
         border-radius: 50vw;
 
         font-size: clamp(0.8rem, 1vw, 2.5rem);
-        color: var(--lch-row-even);
+        color: var(--lch-white);
         text-shadow: none;
     }
 }

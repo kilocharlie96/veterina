@@ -11,7 +11,7 @@ body {
 }
 
 .app {
-    background: var(--lch-row-even);
+    background: var(--lch-white);
 }
 
 [id] {
@@ -39,7 +39,7 @@ a:hover, a:active {
 }
 
 h1 {
-    font-size: clamp(2.5rem, 4vw, 15rem);
+    font-size: clamp(2.5rem, 4vw, 4rem);
     font-family: 'Titan One', 'Montserrat', sans-serif;
     color: var(--lch-brand-red);
 

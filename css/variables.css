@@ -8,9 +8,7 @@
     --lch-grey: oklch(46.053% 0.00518 16.789);
     --lch-light-grey: oklch(91.583% 0.0001 271.152);
     --lch-vanilla: oklch(98.039% 0.01985 97.565);
-    --lch-row-odd: oklch(96.948% 0.05624 97.519);
-    --lch-row-even: oklch(98.511% 0.00011 271.152);
-    --lch-green: oklch(87.596% 0.03919 188.588);
+    --lch-white: oklch(98.511% 0.00011 271.152);
     --lch-hover: oklch(52% 0.18 359.727);
     --lch-brand-red-transparent: oklch(33.063% 0.13414 359.727 / 0.35);
     --lch-transparent-grey: oklch(46.053% 0.00518 16.789 / 0.7);

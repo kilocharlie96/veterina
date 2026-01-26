@@ -24,7 +24,7 @@ main h2:not(.services-item h2) {
   background-image: 
     linear-gradient( 
       to right,
-      var(--lch-row-even),
+      var(--lch-white),
       var(--lch-light-grey)
     );
 
@@ -67,7 +67,7 @@ a.navigate {
   box-shadow: 0.1rem 0.1rem 0.5rem black;
   
   font-size: 0.8rem;
-  color: var(--lch-row-even);
+  color: var(--lch-white);
 }
 
 a.navigate:hover, a.navigate:active {
