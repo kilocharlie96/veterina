@@ -13,4 +13,5 @@
     --lch-green: oklch(87.596% 0.03919 188.588);
     --lch-hover: oklch(52% 0.18 359.727);
     --lch-brand-red-transparent: oklch(33.063% 0.13414 359.727 / 0.35);
+    --lch-transparent-grey: oklch(46.053% 0.00518 16.789 / 0.7);
 }
