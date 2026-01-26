@@ -1,19 +1,8 @@
-#menu-container {
-    position: fixed;
-    height: 100vh;
-    width: 100vw;
-    background: var(--lch-transparent-grey);
+.menu ul{
+    display: flex;
+    flex-direction: row;
 }
 
-#menu {
-    height: 100%;
-    width: 80%;
-    max-width: 33rem;
-    background: var(--lch-light-grey);
-    padding: 2rem;
+.menu a {
     color: white;
-}
-
-#menu a {
-    font-size: clamp(1.5rem, 70%, 3rem);
-}
+} 

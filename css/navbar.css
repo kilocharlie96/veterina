@@ -12,29 +12,17 @@
     color: white;
 }
 
-.navbar button, .navbar svg, .navbar a:not(.logo) {
-    width: 100%;
-}
-
-#btn-menu, #btn-call {
-    color: var(--lch-white);
-}
-
-.menu-scrolled {
-    width: 7%;
-}
-
-.phone-scrolled {
-    width: 5%;
-}
-
 .logo {
-    width: clamp(3rem, 8%, 6rem);
+    width: clamp(3rem, 8%, 4rem);
     transition: width 0.3s ease;
 }
 
 .logo.scrolled {
-    width: clamp(2rem, 7%, 4rem);
+    width: clamp(2rem, 7%, 3rem);
+}
+
+#btn-call::before{
+    content: '0902 590 796';
 }
 
 #telephone {
