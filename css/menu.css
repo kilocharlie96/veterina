@@ -1,16 +1,9 @@
-.menu-toggle {
-  background: transparent;
-  border: none;
-  cursor: pointer;
-  padding: 0;
-}
-
 .line {
-  fill: #333; /* Farba čiar */
-  transition: all 0.3s ease-in-out;
-  /* Toto zabezpečí, že stred rotácie bude stred každej čiary */
-  transform-origin: center;
-  transform-box: fill-box;
+    fill: var(--lch-white);
+    transition: all 0.3s ease-in-out;
+    
+    transform-origin: center;
+    transform-box: fill-box;
 }
 
 /* Keď má tlačidlo triedu "open" */
