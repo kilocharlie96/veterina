@@ -1,8 +1,28 @@
-.menu ul{
-    display: flex;
-    flex-direction: row;
+.menu-toggle {
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  padding: 0;
 }
 
-.menu a {
-    color: white;
-} 
+.line {
+  fill: #333; /* Farba čiar */
+  transition: all 0.3s ease-in-out;
+  /* Toto zabezpečí, že stred rotácie bude stred každej čiary */
+  transform-origin: center;
+  transform-box: fill-box;
+}
+
+/* Keď má tlačidlo triedu "open" */
+.menu-toggle.open .top {
+  transform: translateY(25px) rotate(45deg);
+}
+
+.menu-toggle.open .middle {
+  opacity: 0;
+  transform: translateX(-20px); /* Jemný efekt odsunutia do strany */
+}
+
+.menu-toggle.open .bottom {
+  transform: translateY(-25px) rotate(-45deg);
+}

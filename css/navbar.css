@@ -6,25 +6,39 @@
     
     position: sticky;
     top: 0;
-    padding: 0.5rem 1rem;
+    padding: 0.5rem 2rem;
+    z-index: 1000;
     
     background: var(--lch-brand-red);
-    color: white;
+
+    font-size: clamp(0.8rem, 1vw, 2rem);
 }
 
-.logo {
+.navbar a{
+ font-weight: 400;
+ color: var(--lch-white);
+}
+
+.logo-container {
     width: clamp(3rem, 8%, 4rem);
     transition: width 0.3s ease;
 }
 
-.logo.scrolled {
+.logo-container.scrolled {
     width: clamp(2rem, 7%, 3rem);
 }
 
-#btn-call::before{
+#phone-btn::before{
     content: '0902 590 796';
 }
 
-#telephone {
-    color: inherit;
+#phone-btn {
+    display: flex;
+    align-items: center;
+}
+
+@media (min-width: 660px) {
+    .menu-btn {
+        display: none;
+    }
 }
