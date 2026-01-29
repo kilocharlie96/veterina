@@ -55,6 +55,10 @@ main h2:not(.services-item h2) {
   padding-left: 2rem;
 }
 
+.services-item h2:hover, .services-item h2:active {
+  color: var(--lch-hover);
+}
+
 .town {
   margin-bottom: 2.5rem;
 }
@@ -118,14 +122,9 @@ table#office-hours tr td, thead {
   border-bottom: 1px solid #444;
 }
 
-#contact a, .created {
-  text-decoration: underline;
-  text-decoration-color: var(--lch-brand-red-transparent);
-}
-
 #contact a:hover, #contact a:active,
 .created:hover, .created:active {
-  text-decoration-color: var(--lch-hover)
+  text-decoration: underline;
 }
 
 @media (min-width: 564px) {

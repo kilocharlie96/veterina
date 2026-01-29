@@ -58,5 +58,13 @@
 }
 
 .menu li:not(.menu li:last-child) {
-  margin-bottom: 1rem;
+  margin-bottom: 15%;
+}
+
+
+/* DESKTOP */
+@media (min-width: 660px) {
+  .menu-container {
+    display: none;
+  }
 }
