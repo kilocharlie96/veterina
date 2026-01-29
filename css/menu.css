@@ -23,6 +23,38 @@
 .menu-container {
   position: fixed;
   height: 100vh;
+  width: 100vw;
+  background: var(--lch-transparent-grey);
+
+  z-index: 1000;
+    
+  visibility: hidden;
+  opacity: 0;
+  transition: all 0.3s ease-in-out;
+}
+
+.menu-container.open {
+    visibility: visible;
+    opacity: 1;
+}
+
+.menu {
+  height: 100%;
   width: 70%;
-  background: wheat;
+
+  padding: 1rem;
+
+  background: var(--lch-light-grey);
+  text-align: left;
+
+  transform: translateX(-100%);
+  transition: transform 0.3s ease-in-out;
+}
+
+.menu-container.open .menu {
+    transform: translateX(0);
+}
+
+.menu li {
+  margin: 0.5rem 0;
 }
