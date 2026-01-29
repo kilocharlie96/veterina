@@ -19,3 +19,10 @@
 .menu-toggle.open .bottom {
   transform: translateY(-25px) rotate(-45deg);
 }
+
+.menu-container {
+  position: fixed;
+  height: 100vh;
+  width: 70%;
+  background: wheat;
+}
