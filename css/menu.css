@@ -26,6 +26,8 @@
   width: 100vw;
   background: var(--lch-transparent-grey);
 
+  font-size: clamp(1.2rem, 5vw, 1.6rem);
+
   z-index: 1000;
     
   visibility: hidden;
@@ -42,7 +44,7 @@
   height: 100%;
   width: 70%;
 
-  padding: 1rem;
+  padding: 10% 0.85rem 0.85rem 10%;
 
   background: var(--lch-light-grey);
   text-align: left;
@@ -55,6 +57,6 @@
     transform: translateX(0);
 }
 
-.menu li {
-  margin: 0.5rem 0;
+.menu li:not(.menu li:last-child) {
+  margin-bottom: 1rem;
 }
