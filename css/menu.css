@@ -1,25 +1,3 @@
-.line {
-    fill: var(--lch-white);
-    transition: all 0.3s ease-in-out;
-    
-    transform-origin: center;
-    transform-box: fill-box;
-}
-
-/* Keď má tlačidlo triedu "open" */
-.menu-toggle.open .top {
-  transform: translateY(25px) rotate(45deg);
-}
-
-.menu-toggle.open .middle {
-  opacity: 0;
-  transform: translateX(-20px); /* Jemný efekt odsunutia do strany */
-}
-
-.menu-toggle.open .bottom {
-  transform: translateY(-25px) rotate(-45deg);
-}
-
 .menu-container {
   position: fixed;
   height: 100vh;
@@ -61,10 +39,16 @@
   margin-bottom: 15%;
 }
 
+.menu-desktop {
+  display: none;
+}
+
 
 /* DESKTOP */
-@media (min-width: 660px) {
-  .menu-container {
-    display: none;
+@media (min-width: 980px) {
+  .menu-desktop {
+    flex: 2;
+    display: flex;
+    gap: 2%;
   }
 }

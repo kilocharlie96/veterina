@@ -6,7 +6,7 @@
     
     position: sticky;
     top: 0;
-    padding: 0.5rem;
+    padding: 0.5rem 1rem;
     z-index: 1000;
     
     background: var(--lch-brand-red);
@@ -15,18 +15,56 @@
     font-size: clamp(0.8rem, 1vw, 2rem);
 }
 
+.hamburger-container {
+    flex: 2;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.line {
+    fill: var(--lch-white);
+    transition: all 0.3s ease-in-out;
+    
+    transform-origin: center;
+    transform-box: fill-box;
+}
+
+/* Keď má tlačidlo triedu "open" */
+.menu-toggle.open .top {
+    transform: translateY(25px) rotate(45deg);
+}
+
+.menu-toggle.open .middle {
+    opacity: 0;
+    transform: translateX(-20px); /* Jemný efekt odsunutia do strany */
+}
+
+.menu-toggle.open .bottom {
+    transform: translateY(-25px) rotate(-45deg);
+}
+
+.logo-container {
+    flex: 1;
+}
+
+.logo-btn {
+    width: clamp(3rem, 8%, 4rem);
+    transition: width 0.3s ease;
+}
+
+.logo-btn.scrolled {
+    width: clamp(2rem, 7%, 3rem);
+}
+
 .navbar a{
  font-weight: 400;
  color: var(--lch-white);
 }
 
-.logo-container {
-    width: clamp(3rem, 8%, 4rem);
-    transition: width 0.3s ease;
-}
-
-.logo-container.scrolled {
-    width: clamp(2rem, 7%, 3rem);
+.phone-container {
+    flex: 2;
+    display: flex;
+    justify-content: flex-end;
 }
 
 #phone-btn {
@@ -34,8 +72,8 @@
     align-items: center;
 }
 
-@media (min-width: 660px) {
-    .menu-toggle {
+@media (min-width: 980px) {
+    .hamburger-container {
         display: none;
     }
 

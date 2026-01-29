@@ -1,17 +1,44 @@
-<button class="menu-toggle" id="hamburger">
-  <svg viewBox="0 0 100 100" width="32" height="32">
-    <rect class="line top" width="85" height="7.5" x="5" y="25" rx="4"></rect>
-    <rect class="line middle" width="85" height="7.5" x="5" y="50" rx="4"></rect>
-    <rect class="line bottom" width="85" height="7.5" x="5" y="75" rx="4"></rect>
-  </svg>
-</button>
+<!-- todo: create common container for both hamburger icon and navber menu -->
+<div class="hamburger-container">
+    <button class="menu-toggle" id="hamburger">
+      <svg viewBox="0 0 100 100" width="32" height="32">
+        <rect class="line top" width="85" height="7.5" x="5" y="25" rx="4"></rect>
+        <rect class="line middle" width="85" height="7.5" x="5" y="50" rx="4"></rect>
+        <rect class="line bottom" width="85" height="7.5" x="5" y="75" rx="4"></rect>
+      </svg>
+    </button>
+</div>
 
-<button id="logo-container" class="logo-container" href="#services" aria-label="Domov" title="Domov">
-    <img src="assets/logo/logo_baruvet_white.svg" alt="Logo">
-</button>
+<ul class="menu-desktop">
+    <li>
+        <a href="#welcome" hx-get="components/btn-open.html" hx-target="#btn-menu" onclick="closeMenu()">Domov</a>
+    </li>
+    <li>
+        <a href="#services" hx-get="components/btn-open.html" hx-target="#btn-menu" onclick="closeMenu()">Naše služby</a>
+    </li>
+    <li>
+        <a href="#pricelist" hx-get="components/btn-open.html" hx-target="#btn-menu" onclick="closeMenu()">Orientačný cenník</a>
+    </li>
+    <li>
+        <a href="#office-hours" hx-get="components/btn-open.html" hx-target="#btn-menu" onclick="closeMenu()">Ordinačné hodiny</a>
+    </li>
+    <li>
+        <a href="#adress" hx-get="components/btn-open.html" hx-target="#btn-menu" onclick="closeMenu()">Adresa</a>
+    </li>
+    <li>
+        <a href="#contact" hx-get="components/btn-open.html" hx-target="#btn-menu" onclick="closeMenu()">Kontakt</a>
+    </li>
+</ul>
 
-<a id="phone-container" href="tel:+421902590796" aria-label="Zavolať" title="Zavolať">
-    <div id="phone-btn">
+<div class="logo-container">
+    <button id="logo-btn" class="logo-btn" href="#services" aria-label="Domov" title="Domov">
+        <img src="assets/logo/logo_baruvet_white.svg" alt="Logo">
+    </button>
+</div>
+
+
+<div class="phone-container">
+    <a id="phone-btn" href="tel:+421902590796" aria-label="Zavolať" title="Zavolať">
         <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32"
             viewBox="0 0 24 24" fill="none"
             stroke="currentColor" stroke-width="1.75"
@@ -27,6 +54,6 @@
                 a2 2 0 0 1 2.11-.45
                 c.97.4 2.01.66 3.08.78
                 A2 2 0 0 1 22 16.92z" />
-</svg>
-    </div>
-</a>
+        </svg>
+    </a>
+</div>

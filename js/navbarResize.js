@@ -1,5 +1,5 @@
 document.body.addEventListener("htmx:afterSwap", () => {
-  const logo = document.getElementById("logo-container");
+  const logo = document.getElementById("logo-btn");
 
   if (!logo) return;
 
