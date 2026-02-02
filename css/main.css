@@ -88,7 +88,7 @@ iframe {
   font-weight: bold;
 }
 
-#office-hours {
+.office-hours {
   width: 95%;
   border-collapse: collapse;
   margin: auto;
@@ -98,27 +98,27 @@ iframe {
   font-size: 0.9rem;
 }
 
-#office-hours thead {
+.office-hours thead {
   text-align: center;
   font-size: 0.65rem;
 }
 
-#office-hours th:nth-child(1) {
+.office-hours th:nth-child(1) {
   text-align-last: left;
 }
 
-#office-hours tr td {
+.office-hours tr td {
   text-align: center;
 }
 
-#office-hours tr td:nth-child(1) {
+.office-hours tr td:nth-child(1) {
   font-weight: bold;
   width: 33%;
   text-align-last: left;
 }
 
 
-table#office-hours tr td, thead {
+table.office-hours tr td, thead {
   border-bottom: 1px solid #444;
 }
 
