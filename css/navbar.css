@@ -10,13 +10,12 @@
     z-index: 1000;
     
     background: var(--lch-brand-red);
-    
-    font-size: clamp(0.8rem, 1vw, 2rem);
 }
 
 .navbar a{
     font-weight: 500;
     color: var(--lch-white);
+    font-size: clamp(0.8rem, 0.9vw, 2rem);
 }
 
 .hamburger-container {
@@ -78,6 +77,7 @@
 
     #phone-btn {
         gap: 0.5rem;
+        font-size: clamp(0.9rem, 1vw, 2.5rem);
     }
 
     #phone-btn::after{
