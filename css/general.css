@@ -52,12 +52,12 @@ h2 {
     font-size: clamp(1.3rem, 1.5vw, 3rem);
 }
 
-h4 {
-    padding-top: 0.25rem;
+h3 {
+    margin: 0.75rem 0 1.5rem 0;
 }
 
-h3, h4 {
-    margin-bottom: 0;
+h4 {
+    margin: 2.35rem 0 0.6rem 0;
 }
 
 h1, h2, h3, h4 {
