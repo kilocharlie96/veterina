@@ -49,6 +49,11 @@
   .menu-desktop {
     flex: 2;
     display: flex;
-    gap: 2%;
+    align-items: center;
+    gap: 5%;
+  }
+
+  .menu-desktop li {
+    width: min-content;
   }
 }
