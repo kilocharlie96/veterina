@@ -58,6 +58,10 @@ main h2 {
   font-size: clamp(1.3rem, 1.5vw, 3rem);
 }
 
+.services-item p:hover, .services-item p:active {
+  color: var(--lch-hover);
+}
+
 #team {
   margin: 3rem;
 }
@@ -68,15 +72,11 @@ main h2 {
 
 /* TODO */
 .member:not(:first-of-type) {
-  border-top: 1px solid black;
+  border-top: 1px solid var(--lch-light-grey);
 }
 
 .member h3 {
   font-weight: 750;
-}
-
-.member h4 {
-  text-align: left;
 }
 
 .profile-picture {
@@ -86,9 +86,19 @@ main h2 {
   margin-bottom: 1rem;
 }
 
+.position {
+  font-weight: 600;
+  color: var(--lch-brand-red);
+}
+
 .about {
   font-style: italic;
   font-size: 85%;
+}
+
+.member h4 {
+  text-align: left;
+  font-weight: 450;
 }
 
 ol {
@@ -117,11 +127,6 @@ ol {
   font-size: 80%;
 
   margin-top: 0.45rem;
-}
-
-
-.services-item p:hover, .services-item p:active {
-  color: var(--lch-hover);
 }
 
 .town {
