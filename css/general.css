@@ -40,12 +40,12 @@ a:hover, a:active {
 }
 
 h1 {
-    font-size: clamp(2.5rem, 4vw, 4rem);
-    font-family: 'Titan One', 'Montserrat', sans-serif;
-    color: var(--lch-brand-red);
-
     margin-top: 0.5rem;
     padding: 0.75rem 2.5rem;
+
+    font-size: clamp(2.5rem, 4vw, 4rem);
+    font-family: 'Titan One', 'Montserrat', sans-serif;
+    font-weight: 400;
 }
 
 h2 {
