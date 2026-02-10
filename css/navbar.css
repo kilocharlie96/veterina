@@ -51,6 +51,8 @@
 }
 
 .logo-btn {
+    display: block;
+    margin: 0 auto;
     width: clamp(3rem, 8%, 4rem);
     transition: width 0.3s ease;
 }
