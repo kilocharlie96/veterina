@@ -24,6 +24,10 @@
     justify-content: flex-start;
 }
 
+.menu-toggle {
+    background: inherit;
+}
+
 .line {
     fill: var(--lch-white);
     transition: all 0.3s ease-in-out;

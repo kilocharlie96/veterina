@@ -1,0 +1,34 @@
+.warning {
+    display: grid;
+    place-content: center;
+    position: fixed;
+    height: 100vh;
+    width: 100vw;
+    z-index: 9999;
+    background: var(--lch-transparent-grey);
+    transition: opacity 0.5s ease-in-out, visibility 0.5s;
+}
+
+.warning-content {
+    padding: 2rem;
+    background: var(--lch-white);
+    transition: transform 0.5s ease-in-out, opacity 0.5s;
+}
+
+/* Stav, keď sa okno zatvára */
+.warning.dismiss {
+    opacity: 0;
+    visibility: hidden;
+    transition-delay: 0.2s; /* Počká, kým sa obsah začne hýbať */
+}
+
+.warning.dismiss .warning-content {
+    transform: translateX(-100vw); /* Odíde doľava */
+    opacity: 0;
+}
+
+.btn-agree {
+    padding: 0.75rem;
+    border-radius: 0.75rem;
+    box-shadow: 1px 1px 1px var(--lch-transparent-grey);
+}
